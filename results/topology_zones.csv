@@ -1,0 +1,14 @@
+Zone,Tier,Crit.,PHI records,Outage cost/h,Restore (h),MTD (h),$d_i$ (/h)
+Corporate e-mail / user mailbox,Perimeter,0.05,"15,000","1,200",12,48,0.0040
+Remote access portal (VPN / Citrix),Perimeter,0.10,0,"2,500",16,24,0.0050
+Third-party / supplier gateway,Perimeter,0.15,0,"3,000",24,24,0.0030
+Administrative workstations,Endpoint,0.10,"40,000","4,000",48,72,0.0060
+Identity services (AD / IAM),Core,0.55,0,"18,000",96,8,0.0080
+Clinical workstations / ward PCs,Endpoint,0.65,"60,000","15,000",72,12,0.0050
+EHR application and database,Core,1.00,"850,000","55,000",240,4,0.0100
+PACS / diagnostic imaging,Clinical,0.80,"310,000","22,000",132,8,0.0040
+Laboratory / pathology LIS,Clinical,0.85,"280,000","26,000",168,6,0.0040
+Pharmacy and e-prescribing,Clinical,0.75,"190,000","17,000",96,8,0.0040
+Connected medical devices (IoMT),Clinical,0.70,"25,000","12,000",96,12,0.0020
+Billing / claims clearing-house,Business,0.25,"520,000","30,000",216,48,0.0050
+Backup and disaster-recovery estate,Core,0.45,0,"9,000",168,72,0.0060

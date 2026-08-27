@@ -1,0 +1,9 @@
+# Pinned to the versions used for the reported results.
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+networkx==3.6.1
+seaborn==0.13.2
+pytest>=8.0

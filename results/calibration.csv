@@ -1,0 +1,6 @@
+Observable,Reported range,Source,"HERMES (median [P50, P95])",Consistent
+Share of landed attacks that disrupt care delivery,0.7--0.8,"Neprash \emph{et al.}, \emph{JAMA Health Forum} 2022","0.68 [0.68, 0.69]",$\times$
+Clinical-system outage in a major incident (h),336--1008,Ascension 2024; Synnovis 2024; Change Healthcare 2024,"108.8 [108.8, 360.5]",\checkmark
+PHI records exposed at one large provider (M),0.5--6,"HHS OCR breach portal, 2024 provider incidents","0.2 [0.2, 1.1]",\checkmark
+Dwell time from intrusion to detection (h),24--240,Public incident timelines and vendor dwell-time reporting,"42.2 [42.2, 147.7]",\checkmark
+Direct cost of a major provider incident (M),5--120,"Reported recovery costs, large US and UK providers","8.6 [8.6, 44.9]",\checkmark

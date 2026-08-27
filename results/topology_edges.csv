@@ -1,0 +1,29 @@
+From,To,ATT\&CK,Kind,$p^0_{ij}$,$\tau_{ij}$ (h)
+Internet,E-mail,T1566,phishing,0.78,24
+Internet,Remote access,T1133,cred-abuse,0.62,36
+Internet,Remote access,T1190,ext-exploit,0.48,48
+Internet,Vendor gateway,T1199,supply-chain,0.44,60
+E-mail,Corp. endpoints,T1204,phishing,0.86,8
+Remote access,Corp. endpoints,T1021,cred-abuse,0.82,10
+Remote access,Clinical endpoints,T1021,cred-abuse,0.68,14
+Vendor gateway,Lab / LIS,T1199,supply-chain,0.74,16
+Vendor gateway,Billing,T1199,supply-chain,0.66,18
+Corp. endpoints,Identity (AD/IAM),T1003,priv-esc,0.80,20
+Clinical endpoints,Identity (AD/IAM),T1003,priv-esc,0.70,24
+Corp. endpoints,Clinical endpoints,T1021,lateral,0.84,12
+Identity (AD/IAM),EHR core,T1078,cred-abuse,0.90,14
+Identity (AD/IAM),PACS,T1078,cred-abuse,0.86,16
+Identity (AD/IAM),Lab / LIS,T1078,cred-abuse,0.85,16
+Identity (AD/IAM),Pharmacy,T1078,cred-abuse,0.83,18
+Identity (AD/IAM),Billing,T1078,cred-abuse,0.80,20
+Identity (AD/IAM),Backup / DR,T1490,backup-tamper,0.76,26
+Identity (AD/IAM),IoMT,T1078,cred-abuse,0.58,30
+Clinical endpoints,EHR core,T1210,lateral,0.60,26
+Clinical endpoints,PACS,T1210,lateral,0.66,22
+Clinical endpoints,IoMT,T1210,lateral,0.72,20
+Lab / LIS,EHR core,T1210,lateral,0.62,24
+PACS,EHR core,T1210,lateral,0.56,28
+Pharmacy,EHR core,T1210,lateral,0.52,28
+Billing,EHR core,T1210,lateral,0.46,32
+Corp. endpoints,Backup / DR,T1490,backup-tamper,0.50,36
+IoMT,Clinical endpoints,T1210,lateral,0.48,30

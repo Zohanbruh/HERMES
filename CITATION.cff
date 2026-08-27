@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "HERMES: Healthcare Cyber-Risk Modelling and Evaluation via Simulation"
+version: 1.0.0
+date-released: "2026-08-21"
+license: MIT
+authors:
+  - family-names: Adhikari
+    given-names: Arjun
+    affiliation: "Department of Computing and Mathematics, Manchester Metropolitan University"
+keywords:
+  - healthcare cybersecurity
+  - attack graph
+  - Monte Carlo simulation
+  - security control effectiveness
+  - zero trust
+  - intrusion detection

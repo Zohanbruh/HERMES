@@ -1,0 +1,8 @@
+Control,phishing,ext-exploit,cred-abuse,supply-chain,lateral,priv-esc,backup-tamper,Cost (M/yr)
+Phishing-resistant MFA,0.35,0.00,0.78,0.30,0.15,0.25,0.20,0.21
+Network segmentation,0.00,0.10,0.20,0.45,0.72,0.10,0.55,0.48
+Vulnerability and patch management,0.05,0.70,0.05,0.15,0.35,0.45,0.10,0.32
+Endpoint detection and response,0.40,0.25,0.15,0.15,0.38,0.50,0.30,0.26
+Security culture and awareness programme,0.55,0.00,0.18,0.05,0.03,0.03,0.00,0.10
+Immutable / offline backup,0.00,0.00,0.00,0.00,0.00,0.00,0.65,0.17
+Centralised monitoring and response (SIEM/SOC),0.05,0.10,0.12,0.10,0.20,0.18,0.25,0.41

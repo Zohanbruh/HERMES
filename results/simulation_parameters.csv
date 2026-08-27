@@ -1,0 +1,16 @@
+Parameter,Symbol,Value,Note
+Campaign horizon,$T$,720 h,30 days; longer horizons change results by $<1\%$
+Replications per seed,$N$,"20,000","chosen from the convergence study, Fig.~\ref{fig:convergence}"
+Containment latency (median),$m_L$,34 h,detection to full network containment
+Containment latency (shape),$\sigma_L$,0.65,log-normal
+Dwell before impact,$\delta$,12 h,hours a zone must be held before it suffers an outage
+Restoration noise,$\sigma_R$,0.45,log-normal
+Backup-loss penalty,$\kappa$,2.20,restoration multiplier when recovery infrastructure is destroyed
+Breach cost coefficient,$a$,373,"cost $= a\,R^{b}$ in records $R$"
+Breach cost exponent,$b$,0.75,"sub-linear, reflecting volume effects in reported breach costs"
+Ransom (median),$m_\Omega$,1.45 M,"log-normal, $\sigma = 0.90$"
+P(pay $\mid$ backups lost),$\pi^-$,0.62,
+P(pay $\mid$ backups intact),$\pi^+$,0.11,
+P(regulatory action),$\pi_F$,0.28,capped at 18 M
+Exfiltrated share (mean),$\mu_X$,0.55,of the records held by a compromised zone
+Campaign frequency,$\lambda$,1.5/yr,serious targeted campaigns against one large provider

@@ -1,0 +1,5 @@
+Comparison,$\Delta$ mean loss (M),95\% CI,Change,Cliff's $\delta$,$p_{\text{Holm}}$
+P0 uncontrolled vs P1 typical,54.80,"[54.31, 55.30]",$+$716.6\%,0.819 (large),$<10^{-4}$
+P2 hardened vs P1 typical,-6.85,"[-7.02, -6.68]",$-$89.5\%,-0.517 (large),$<10^{-4}$
+P3 zero trust vs P1 typical,-7.37,"[-7.54, -7.19]",$-$96.4\%,-0.655 (large),$<10^{-4}$
+P4 upper bound vs P1 typical,-7.48,"[-7.66, -7.30]",$-$97.8\%,-0.710 (large),$<10^{-4}$
