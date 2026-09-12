@@ -304,7 +304,7 @@ def plot_ablation_bars(path: Path | str, df: pd.DataFrame, value: str,
 def plot_calibration(path: Path | str, panels: Sequence[Dict[str, object]]) -> Path:
     """Simulated distribution against publicly reported incident values."""
     apply_style()
-    fig, axes = plt.subplots(1, len(panels), figsize=(COL_DOUBLE, 2.1))
+    fig, axes = plt.subplots(1, len(panels), figsize=(COL_DOUBLE, 2.35))
     if len(panels) == 1:
         axes = [axes]
     for ax, panel in zip(axes, panels):
@@ -327,8 +327,13 @@ def plot_calibration(path: Path | str, panels: Sequence[Dict[str, object]]) -> P
         plt.Line2D([0], [0], color=PALETTE[1], linewidth=4, alpha=0.4,
                    label="Publicly reported range"),
     ]
+    # Reserve a strip at the foot of the figure for the legend before placing
+    # it.  Without the reserved strip the legend is drawn on top of the x-axis
+    # labels of the middle panels, because ``savefig.bbox="tight"`` crops to the
+    # artists rather than moving them apart.
+    fig.tight_layout(rect=(0.0, 0.13, 1.0, 1.0), w_pad=1.1)
     fig.legend(handles=handles, loc="lower center", ncol=2, frameon=False,
-               bbox_to_anchor=(0.5, -0.10))
+               bbox_to_anchor=(0.5, 0.005))
     return save(fig, path)
 
 
